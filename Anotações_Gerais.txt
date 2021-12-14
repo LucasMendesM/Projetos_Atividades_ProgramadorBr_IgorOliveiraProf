@@ -1,0 +1,1 @@
+- A página principal de um site deve obrigatoriamente se chamar index.html, as outras podem ter outros nomes. (O mecanismo de busca vai apresentar para o buscador a página principal, no caso o index.)

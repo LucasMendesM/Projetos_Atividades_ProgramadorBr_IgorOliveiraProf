@@ -1,6 +1,5 @@
-.h1 {
-    font-size: 20px;
-    line-height: 1.2;
-    margin: 0 0 0.5em 0;
-    font-style: italic;
-}
+/*
+    Neste arquivo estão definidas as cores e estilos do site.
+    Este arquivo deve ser chamado no head do site.
+    Está prática é conhecida como CSS Externo.
+*/
