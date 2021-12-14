@@ -3,3 +3,27 @@
     Este arquivo deve ser chamado no head do site.
     Está prática é conhecida como CSS Externo.
 */
+
+
+
+#externoId {
+    color: red;
+}
+/*
+    Com o ID adicionado lá na Tag HTML, chamar ela aqui no arquivo externo com o "#" e aplicar seus extilos.
+*/
+
+
+.externoClass {
+    color: green;
+}
+/*
+    Já para referenciar uma classe aqui no arquivo CSS, basta colocar um ponto antes do nome da classe, e aplicar seus estilos.
+*/
+
+
+/*
+    DIFERENÇA ENTRE ID E CLASS:
+    - Classe pode ser utilizada em mais de um elemento.
+    - Id pode ser utilizado apenas em um elemento na página.
+*/
