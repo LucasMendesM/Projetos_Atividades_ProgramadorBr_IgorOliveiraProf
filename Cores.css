@@ -1,0 +1,9 @@
+ClasseDeUmaTagHtml {
+    color: darkred /*Adicionando com pelo nome.*/
+    /*color: rgb(0, 0, 255) /*Adicionando com o código rgb.*/
+    /*color: rgba(0, 0, 255, 0.5) /*Adicionando com o código rgba.*/
+    /*color: hsl(0, 100%, 50%) /*Adicionando com o código hsl.*/
+    /*color: hsla(0, 100%, 50%, 0.5) /*Adicionando com o código hsla.*/
+    /*color: #000 /*Adicionando com o código hexadecimal.*/
+}
+/* No caso do rgba & hsla.. O último "a" é o a transparencia do texto (Quanto menor o "a", mais transparente fica.) */
