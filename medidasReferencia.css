@@ -1,0 +1,70 @@
+/* Parametro para referenciar abaixo.
+
+classTag {
+    font-size: 20px;
+}
+
+*/ 
+
+
+/* Referencia ao elemento em uso no container.
+
+classTag {
+    font-size: 1em;
+}
+
+*/ 
+
+
+/* Referencia ao elemento "HTML" raiz (Texo no nody).
+
+classTag {
+    font-size: 1rem;
+}
+
+*/ 
+
+
+/* Referencia em VW (1vw equivale a 1% da largura da nossa janela).
+
+classTag {
+    font-size: 1vw;
+}
+
+*/ 
+
+
+/* Referencia em VH (1vh equivale a 1% da altura da nossa janela).
+
+classTag {
+    font-size: 1vh;
+}
+
+*/ 
+
+
+/* Referencia em VMIN (refrencia a menor dimensão).
+
+classTag {
+    font-size: 1vmin;
+}
+
+*/ 
+
+
+/* Referencia em VMAX (refrencia a maior dimensão).
+
+classTag {
+    font-size: 1vmax;
+}
+
+*/ 
+
+
+/* Referencia em %.
+
+classTag {
+    font-size: 50%;
+}
+
+*/ 
