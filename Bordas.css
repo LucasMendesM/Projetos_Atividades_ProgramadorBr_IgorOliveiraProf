@@ -1,0 +1,31 @@
+.borda {
+  border-width: 5px;
+  border-style: solid;
+  border-color: chartreuse;
+  border-radius: 5px;
+}
+
+.quadrado {
+   width: 100px;
+   height: 100px;
+   background-color: blue; 
+}
+
+/*
+ESTILOS DE BORDAS 
+- Dotted (pontilhado)
+- Dashed (tracejado)
+- Double (duplo)
+- Groove (sombreamento)
+- Solid (sólido)
+- None (nenhum
+- Hidden (escondido
+*/
+
+/*
+Para estilizar uma borda com apenas um comando, basta usar o parametro "border" e passar em ordem os valores da (espessura, estilo, cor).
+
+.borda {
+  border: 5px solid red;
+}
+*/
