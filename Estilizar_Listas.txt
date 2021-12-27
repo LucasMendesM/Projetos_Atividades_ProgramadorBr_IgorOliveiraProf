@@ -1,0 +1,21 @@
+- Para retirar os pontos de uma lista não ordenada, ou a numeração de uma lista ordenada.
+
+.list {
+    list-style-type: none;
+}
+
+...
+
+- Para adicionar imagem no lugar do círculo ou numeração de uma lista.
+
+.list {
+    list-style-image: url("../minhapasta/nomeimg.png")
+}
+
+...
+
+- Ao criar uma borda em sua lista, para adicionar o item como a bolinha ou a numeração para dentro dessa lista, use.
+
+.list {
+    list-style-position: inside;
+}
