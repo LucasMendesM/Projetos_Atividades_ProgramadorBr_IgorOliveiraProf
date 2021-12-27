@@ -1,0 +1,40 @@
+As 03 Famílias de Fontes.
+- Serifa (Serif)
+- Sem Serifa (Sans-Serif)
+- MonoSpace
+
+* Serifa tem pézinhos nas letras.
+* Sem Serifa é sem o pézinho nas letras.
+* MonoSpace são letras que tem a mesma largura, fazendo que palavras com o mesmo tanto de letra tenham o mesmo tamanho.
+
+...............
+
+Declarando várias fontes em css.
+
+p {
+    font-family: arial, "Comis Sans MS", sans-serif;
+}
+
+................
+
+Estilos de fontes são como.
+- Italic
+- Normal
+
+................
+
+Alterando Tamanho de Fonte em CSS.
+
+p {
+    font-size: 22px;
+}
+
+................
+
+Aplicar small-caps em seus textos, os deixam mais bonitos.
+
+p {
+    font-variant: small-caps;
+}
+
+.................

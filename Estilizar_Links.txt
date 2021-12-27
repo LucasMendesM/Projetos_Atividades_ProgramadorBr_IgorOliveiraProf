@@ -1,0 +1,45 @@
+UM LINK POR PADRÃO É AZUL E COM UMA LINHA EMBAIXO.
+QUANDO VIZITADO ESTE LINK FICA ROXO.
+
+...
+
+- Como retirar a linha inferior do link:
+
+.link {
+    text-decoration: none;
+}
+
+...
+
+- Como mudar cor de um link:
+
+.link {
+    color: red;    
+}
+
+...
+
+- Mudando estilos de um link já vizitado.
+
+.link:visited {
+    color: red;
+    text-decoration: none;
+}
+
+...
+
+- Estilizando a passagem do mouse sobre o link.
+
+.link:hover {  
+    color: green;  // Quando passar mouse sobre o link, ele fica verde.
+}
+
+...
+
+- Estilizando o clique do mouse no link.
+
+.link:active {  
+    color: green;  // Quando clicar no link, ele fica verde.
+}
+
+...
