@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OverFlow</title>
+
+    <style type="text/css">
+
+        body {
+            font-size: 1.2rem;
+        }
+
+        #container {
+            color: yellow;
+            background-color: blue;
+            width: 300px;
+            height: 100px;
+
+            /*overflow: visible; - De fato mostra todo o conteúdo, independente se está vazando o background*/
+
+            /*overflow: hidden; - Neste caso é cortado tudo que fica fora do nosso background, e corta o conteúdo para caber*/
+
+            /*overflow: scroll; - Neste caso ele permite que o conteúdo caiba dentro do background, criando uma rolagem com abas embaixo e ao lado*/
+
+            overflow: auto; /*Utilizando o 'auto' ele adiciona bordas assim como no 'scroll' ..  Só que adiciona somente aonde realmente precisa*/
+
+            /*Para estilizar separadamente cada lado com overflow, basta usar o comando 'overflow-y' & 'overflow-x'*/
+        }
+
+    </style>
+</head>
+<body>
+    
+    <!--Manipulando um 'elemento maior que está dentro de ou 'elemento menor-->
+
+    <div id="container">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, quod! Reiciendis, provident! Pariatur possimus hic voluptate incidunt! Beatae numquam vel, corrupti molestiae incidunt amet quo delectus magnam, quaerat sed veritatis.
+    </div>
+    
+</body>
+</html>
